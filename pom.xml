@@ -10,6 +10,8 @@
         <module>config-server</module>
         <module>user-api</module>
         <module>user-server</module>
+        <module>shanjiancaofu-springboot-autoconfigurer</module>
+        <module>druid-spring-boot-stater</module>
     </modules>
 
     <groupId>com.shanjiancaofu</groupId>
@@ -21,7 +23,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <springboot-version>2.1.6.RELEASE</springboot-version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -60,10 +62,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${springboot-version}</version>
         </dependency>
+
+
     </dependencies>
 
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -87,6 +92,31 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-netflix</artifactId>
                 <version>2.1.1.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>com.shanjiancaofu.springboot</groupId>
+                <artifactId>shanjiancaofu-springboot-autoconfigurer</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.1.10</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-stater</artifactId>
+                <version>1.1.13</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>2.1.6.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-jdbc</artifactId>
+                <version>2.1.6.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

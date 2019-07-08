@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+    <!-- 此xml在spring-boot-1.5.3.RELEASE.jar里 -->
+    <!--   <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+       <include resource="org/springframework/boot/logging/logback/console-appender.xml" />-->
+    <!-- 开启后可以通过jmx动态控制日志级别(springboot Admin的功能) -->
+    <!--<jmxConfigurator/>-->
+
+
+    <!--定义日志文件的存储地址和前缀名-->
+    <property name="LOG_PREFIX" value="cmpp-api"/>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSS} [%t] [%p] %c{1} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件 RollingFileAppender-->
+    <appender name="all" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PREFIX}.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/%d{yyyy-MM-dd}.log</fileNamePattern>
+
+            <maxHistory>180</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSS} [%t] [%p] %c{1} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="special" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PREFIX}.special.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/%d{yyyy-MM-dd}.special.log</fileNamePattern>
+            <maxHistory>180</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSS} [%t] [%p] %c{1} - %msg%n</pattern>
+        </encoder>
+
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+    </appender>
+
+    <!--不同业务逻辑的日志打印到不同文件-->
+    <appender name="remoteInfterfaceAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>remoteInterfacce.log</File>
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter"> <!--- 级别过滤器 ->
+            <level>INFO</level>
+          <!-  <onMatch>ACCEPT</onMatch>  用于配置符合过滤条件的操作
+            <onMismatch>DENY</onMismatch>  用于配置不符合过滤条件的操作 -->
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/%d{yyyy-MM-dd}.remoteInterfacce.log</fileNamePattern>
+            <maxHistory>180</maxHistory>
+        </rollingPolicy>
+        <encoder charset="UTF-8">
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %level [%thread] %file:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+
+    <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="DEBUG"/>
+
+    <!-- 远程接口调用 专用日志 -->
+    <logger name="remoteInfterForLogName" additivity="false" level="INFO">
+        <appender-ref ref="remoteInfterfaceAppender"/>
+    </logger>
+
+    <!--  实现sql 打印在日志文件中-->
+    <!--  <logger name="daoLog" level="debug" additivity="true">
+          <appender-ref ref="console"/>
+      </logger>-->
+
+    <root level="INFO">
+        <appender-ref ref="console"/>
+        <appender-ref ref="all"/>
+        <appender-ref ref="special"/>
+    </root>
+
+
+</configuration>

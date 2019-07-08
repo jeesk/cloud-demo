@@ -1,0 +1,1335 @@
+2019-07-06T19:46:59.554 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-06T19:46:59.884 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5637b072] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:46:59.988 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T19:47:00.456 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver.mapper]' package. Please check your configuration.
+2019-07-06T19:47:00.539 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver]' package. Please check your configuration.
+2019-07-06T19:47:00.743 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:47:00.752 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:47:00.896 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=fb9b4e9e-20e8-352f-884e-b8808eb6d5f3
+2019-07-06T19:47:00.991 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a1dad75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:47:01.092 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5637b072] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:47:01.662 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T19:47:01.675 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T19:47:01.681 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T19:47:01.682 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T19:47:01.751 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T19:47:01.752 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1748 ms
+2019-07-06T19:47:01.911 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T19:47:01.912 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T19:47:01.918 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4004e8c9
+2019-07-06T19:47:02.500 [restartedMain] [ERROR] o.s.b.w.e.t.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+2019-07-06T19:47:02.518 [restartedMain] [INFO] o.a.c.c.StandardService - Stopping service [Tomcat]
+2019-07-06T19:47:02.531 [restartedMain] [WARN] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-07-06T19:47:02.543 [restartedMain] [INFO] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-06T19:47:02.555 [restartedMain] [ERROR] o.s.b.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:155)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.shanjiancaofu.userserver.UserServerApplication.main(UserServerApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:124)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:252)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5132)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:456)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 60 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBean(EndpointDiscoverer.java:141)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBeans(EndpointDiscoverer.java:131)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.discoverEndpoints(EndpointDiscoverer.java:120)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.getEndpoints(EndpointDiscoverer.java:114)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.servletEndpointRegistrar(ServletEndpointManagementContextConfiguration.java:72)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$f0520550.CGLIB$servletEndpointRegistrar$0(<generated>)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$f0520550$$FastClassBySpringCGLIB$$a63d7bca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$f0520550.servletEndpointRegistrar(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 61 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	... 86 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 100 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:391)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:590)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorRegistryBeans.get(HealthIndicatorRegistryBeans.java:42)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration.healthIndicatorRegistry(HealthIndicatorAutoConfiguration.java:77)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$439fc935.CGLIB$healthIndicatorRegistry$1(<generated>)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$439fc935$$FastClassBySpringCGLIB$$5cbbe0c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$439fc935.healthIndicatorRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 101 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:584)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1455)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	... 134 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:224)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:407)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:341)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:335)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:53)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 147 common frames omitted
+Caused by: org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/department.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.getResources(DataSourceInitializer.java:163)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.getScripts(DataSourceInitializer.java:146)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:93)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:62)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	... 161 common frames omitted
+2019-07-06T19:47:46.374 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-06T19:47:46.666 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9ba606e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:47:46.766 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T19:47:47.142 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver.mapper]' package. Please check your configuration.
+2019-07-06T19:47:47.206 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver]' package. Please check your configuration.
+2019-07-06T19:47:47.377 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:47:47.384 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:47:47.508 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=fb9b4e9e-20e8-352f-884e-b8808eb6d5f3
+2019-07-06T19:47:47.588 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f8c03ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:47:47.663 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9ba606e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:47:48.146 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T19:47:48.198 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T19:47:48.206 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T19:47:48.206 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T19:47:48.272 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T19:47:48.272 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1493 ms
+2019-07-06T19:47:48.472 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T19:47:48.472 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T19:47:48.480 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@62587448
+2019-07-06T19:47:49.123 [restartedMain] [ERROR] o.s.b.w.e.t.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+2019-07-06T19:47:49.140 [restartedMain] [INFO] o.a.c.c.StandardService - Stopping service [Tomcat]
+2019-07-06T19:47:49.149 [restartedMain] [WARN] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-07-06T19:47:49.161 [restartedMain] [INFO] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-06T19:47:49.170 [restartedMain] [ERROR] o.s.b.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:155)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.shanjiancaofu.userserver.UserServerApplication.main(UserServerApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:124)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:252)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5132)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:456)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 58 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBean(EndpointDiscoverer.java:141)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBeans(EndpointDiscoverer.java:131)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.discoverEndpoints(EndpointDiscoverer.java:120)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.getEndpoints(EndpointDiscoverer.java:114)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.servletEndpointRegistrar(ServletEndpointManagementContextConfiguration.java:72)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$35c05bc7.CGLIB$servletEndpointRegistrar$0(<generated>)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$35c05bc7$$FastClassBySpringCGLIB$$4b466593.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$35c05bc7.servletEndpointRegistrar(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthIndicatorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	... 84 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthIndicatorRegistry]: Factory method 'healthIndicatorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 98 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:391)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:590)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorRegistryBeans.get(HealthIndicatorRegistryBeans.java:42)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration.healthIndicatorRegistry(HealthIndicatorAutoConfiguration.java:77)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$890e1fac.CGLIB$healthIndicatorRegistry$1(<generated>)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$890e1fac$$FastClassBySpringCGLIB$$2a2636cb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$890e1fac.healthIndicatorRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 99 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druid' defined in class path resource [com/shanjiancaofu/userserver/config/DruidConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:584)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1455)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	... 132 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:224)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:407)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:341)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:335)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:53)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 145 common frames omitted
+Caused by: org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'ServletContext resource [/employee.sql]' is invalid: The specified resource does not exist.
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.getResources(DataSourceInitializer.java:163)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.getScripts(DataSourceInitializer.java:146)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:93)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:62)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	... 159 common frames omitted
+2019-07-06T19:48:11.396 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-06T19:48:11.702 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$55f81e7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:11.803 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T19:48:12.269 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver.mapper]' package. Please check your configuration.
+2019-07-06T19:48:12.348 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver]' package. Please check your configuration.
+2019-07-06T19:48:12.546 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:48:12.556 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:48:12.717 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=fb9b4e9e-20e8-352f-884e-b8808eb6d5f3
+2019-07-06T19:48:12.811 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39de1b80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:12.906 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$55f81e7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:13.456 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T19:48:13.468 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T19:48:13.474 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T19:48:13.474 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T19:48:13.542 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T19:48:13.542 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1724 ms
+2019-07-06T19:48:13.704 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T19:48:13.704 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T19:48:13.711 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@20176d0b
+2019-07-06T19:48:14.618 [restartedMain] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-06T19:48:15.113 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T19:48:15.113 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T19:48:15.618 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06T19:48:15.811 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-06T19:48:16.350 [restartedMain] [WARN] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-07-06T19:48:16.503 [restartedMain] [INFO] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-06T19:48:16.601 [restartedMain] [INFO] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-06T19:48:16.631 [restartedMain] [INFO] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-06T19:48:16.686 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-06T19:48:16.686 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-06T19:48:16.768 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-06T19:48:16.768 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-06T19:48:16.919 [restartedMain] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T19:48:16.931 [restartedMain] [INFO] c.n.d.DiscoveryClient - Disable delta property : false
+2019-07-06T19:48:16.932 [restartedMain] [INFO] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-07-06T19:48:16.932 [restartedMain] [INFO] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-07-06T19:48:16.932 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application is null : false
+2019-07-06T19:48:16.932 [restartedMain] [INFO] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-07-06T19:48:16.932 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application version is -1: true
+2019-07-06T19:48:16.932 [restartedMain] [INFO] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-06T19:48:17.053 [restartedMain] [INFO] c.n.d.DiscoveryClient - The response status is 200
+2019-07-06T19:48:17.055 [restartedMain] [INFO] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-06T19:48:17.057 [restartedMain] [INFO] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-06T19:48:17.061 [restartedMain] [INFO] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1562413697060 with initial instances count: 1
+2019-07-06T19:48:17.094 [restartedMain] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVER with eureka with status UP
+2019-07-06T19:48:17.094 [restartedMain] [INFO] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562413697094, current=UP, previous=STARTING]
+2019-07-06T19:48:17.096 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T19:48:17.111 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8891"]
+2019-07-06T19:48:17.124 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T19:48:17.127 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8891 (http) with context path ''
+2019-07-06T19:48:17.128 [restartedMain] [INFO] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8891
+2019-07-06T19:48:17.130 [restartedMain] [INFO] c.s.u.UserServerApplication - Started UserServerApplication in 6.276 seconds (JVM running for 6.803)
+2019-07-06T19:48:17.209 [RMI TCP Connection(1)-127.0.0.1] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-06T19:48:17.209 [RMI TCP Connection(1)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-06T19:48:17.227 [RMI TCP Connection(1)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Completed initialization in 18 ms
+2019-07-06T19:48:39.437 [Thread-21] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USER-SERVER with eureka with status DOWN
+2019-07-06T19:48:39.438 [Thread-21] [WARN] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562413719438, current=DOWN, previous=UP]
+2019-07-06T19:48:39.438 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T19:48:39.442 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T19:48:39.442 [Thread-21] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-06T19:48:39.452 [Thread-21] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-06T19:48:39.454 [Thread-21] [INFO] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-06T19:48:42.455 [Thread-21] [INFO] c.n.d.DiscoveryClient - Unregistering ...
+2019-07-06T19:48:42.461 [Thread-21] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - deregister  status: 200
+2019-07-06T19:48:42.470 [Thread-21] [INFO] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-06T19:48:44.671 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-06T19:48:45.043 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$143a1cf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:45.135 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T19:48:45.547 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver.mapper]' package. Please check your configuration.
+2019-07-06T19:48:45.613 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver]' package. Please check your configuration.
+2019-07-06T19:48:45.779 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:48:45.786 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:48:45.912 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=fb9b4e9e-20e8-352f-884e-b8808eb6d5f3
+2019-07-06T19:48:45.993 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f82019fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:46.068 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$143a1cf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:46.542 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T19:48:46.596 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T19:48:46.603 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T19:48:46.603 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T19:48:46.665 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T19:48:46.665 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1517 ms
+2019-07-06T19:48:46.810 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T19:48:46.810 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T19:48:46.815 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5f5413a1
+2019-07-06T19:48:47.624 [restartedMain] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-06T19:48:48.075 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T19:48:48.076 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T19:48:48.519 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06T19:48:48.717 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-06T19:48:49.132 [restartedMain] [WARN] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-07-06T19:48:49.262 [restartedMain] [INFO] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-06T19:48:49.344 [restartedMain] [INFO] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-06T19:48:49.368 [restartedMain] [INFO] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-06T19:48:49.415 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-06T19:48:49.415 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-06T19:48:49.477 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-06T19:48:49.477 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-06T19:48:49.592 [restartedMain] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T19:48:49.602 [restartedMain] [INFO] c.n.d.DiscoveryClient - Disable delta property : false
+2019-07-06T19:48:49.603 [restartedMain] [INFO] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-07-06T19:48:49.603 [restartedMain] [INFO] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-07-06T19:48:49.603 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application is null : false
+2019-07-06T19:48:49.603 [restartedMain] [INFO] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-07-06T19:48:49.603 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application version is -1: true
+2019-07-06T19:48:49.603 [restartedMain] [INFO] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-06T19:48:49.692 [restartedMain] [INFO] c.n.d.DiscoveryClient - The response status is 200
+2019-07-06T19:48:49.694 [restartedMain] [INFO] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-06T19:48:49.696 [restartedMain] [INFO] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-06T19:48:49.698 [restartedMain] [INFO] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1562413729698 with initial instances count: 2
+2019-07-06T19:48:49.731 [restartedMain] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVER with eureka with status UP
+2019-07-06T19:48:49.732 [restartedMain] [INFO] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562413729732, current=UP, previous=STARTING]
+2019-07-06T19:48:49.733 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T19:48:49.751 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8891"]
+2019-07-06T19:48:49.759 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T19:48:49.765 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8891 (http) with context path ''
+2019-07-06T19:48:49.765 [restartedMain] [INFO] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8891
+2019-07-06T19:48:49.767 [restartedMain] [INFO] c.s.u.UserServerApplication - Started UserServerApplication in 5.552 seconds (JVM running for 6.005)
+2019-07-06T19:48:50.109 [RMI TCP Connection(4)-127.0.0.1] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-06T19:48:50.109 [RMI TCP Connection(4)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-06T19:48:50.124 [RMI TCP Connection(4)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Completed initialization in 15 ms
+2019-07-06T19:48:52.111 [Thread-20] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USER-SERVER with eureka with status DOWN
+2019-07-06T19:48:52.111 [Thread-20] [WARN] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562413732111, current=DOWN, previous=UP]
+2019-07-06T19:48:52.111 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T19:48:52.116 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T19:48:52.116 [Thread-20] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-06T19:48:52.123 [Thread-20] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-06T19:48:52.125 [Thread-20] [INFO] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-06T19:48:55.125 [Thread-20] [INFO] c.n.d.DiscoveryClient - Unregistering ...
+2019-07-06T19:48:55.134 [Thread-20] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - deregister  status: 200
+2019-07-06T19:48:55.144 [Thread-20] [INFO] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-06T19:48:57.694 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-06T19:48:58.064 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2d03eef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:58.183 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T19:48:58.668 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver.mapper]' package. Please check your configuration.
+2019-07-06T19:48:58.742 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver]' package. Please check your configuration.
+2019-07-06T19:48:58.946 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:48:58.954 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-06T19:48:59.100 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=fb9b4e9e-20e8-352f-884e-b8808eb6d5f3
+2019-07-06T19:48:59.195 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10e9ebf3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:59.290 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2d03eef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T19:48:59.894 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T19:48:59.905 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T19:48:59.912 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T19:48:59.912 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T19:48:59.980 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T19:48:59.980 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1779 ms
+2019-07-06T19:49:00.165 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T19:49:00.165 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T19:49:00.172 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@53f1b90e
+2019-07-06T19:49:27.203 [restartedMain] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-06T19:49:27.712 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T19:49:27.712 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T19:49:28.204 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06T19:49:28.514 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-06T19:49:29.023 [restartedMain] [WARN] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-07-06T19:49:29.179 [restartedMain] [INFO] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-06T19:49:29.285 [restartedMain] [INFO] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-06T19:49:29.310 [restartedMain] [INFO] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-06T19:49:29.359 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-06T19:49:29.359 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-06T19:49:29.440 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-06T19:49:29.440 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-06T19:49:29.637 [restartedMain] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T19:49:29.651 [restartedMain] [INFO] c.n.d.DiscoveryClient - Disable delta property : false
+2019-07-06T19:49:29.651 [restartedMain] [INFO] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-07-06T19:49:29.651 [restartedMain] [INFO] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-07-06T19:49:29.651 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application is null : false
+2019-07-06T19:49:29.651 [restartedMain] [INFO] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-07-06T19:49:29.651 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application version is -1: true
+2019-07-06T19:49:29.651 [restartedMain] [INFO] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-06T19:49:29.766 [restartedMain] [INFO] c.n.d.DiscoveryClient - The response status is 200
+2019-07-06T19:49:29.768 [restartedMain] [INFO] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-06T19:49:29.770 [restartedMain] [INFO] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-06T19:49:29.774 [restartedMain] [INFO] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1562413769773 with initial instances count: 1
+2019-07-06T19:49:29.822 [restartedMain] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVER with eureka with status UP
+2019-07-06T19:49:29.829 [restartedMain] [INFO] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562413769829, current=UP, previous=STARTING]
+2019-07-06T19:49:29.831 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T19:49:29.845 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8891"]
+2019-07-06T19:49:29.858 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T19:49:29.862 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8891 (http) with context path ''
+2019-07-06T19:49:29.863 [restartedMain] [INFO] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8891
+2019-07-06T19:49:29.865 [restartedMain] [INFO] c.s.u.UserServerApplication - Started UserServerApplication in 32.739 seconds (JVM running for 33.383)
+2019-07-06T19:49:29.947 [RMI TCP Connection(2)-127.0.0.1] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-06T19:49:29.947 [RMI TCP Connection(2)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-06T19:49:29.964 [RMI TCP Connection(2)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Completed initialization in 17 ms
+2019-07-06T19:54:29.653 [AsyncResolver-bootstrap-executor-0] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T19:59:29.662 [AsyncResolver-bootstrap-executor-0] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T19:59:56.923 [Thread-22] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USER-SERVER with eureka with status DOWN
+2019-07-06T19:59:56.923 [Thread-22] [WARN] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414396923, current=DOWN, previous=UP]
+2019-07-06T19:59:56.923 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T19:59:56.927 [Thread-22] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-06T19:59:56.927 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T19:59:56.942 [Thread-22] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-06T19:59:56.943 [Thread-22] [INFO] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-06T19:59:59.944 [Thread-22] [INFO] c.n.d.DiscoveryClient - Unregistering ...
+2019-07-06T19:59:59.947 [DiscoveryClient-0] [WARN] c.n.d.TimedSupervisorTask - task supervisor shutting down, can't accept the task
+2019-07-06T19:59:59.956 [Thread-22] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - deregister  status: 200
+2019-07-06T19:59:59.962 [Thread-22] [INFO] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-06T20:00:03.055 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-06T20:00:03.385 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$223199a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:00:03.506 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T20:00:04.001 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver.mapper]' package. Please check your configuration.
+2019-07-06T20:00:04.099 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver]' package. Please check your configuration.
+2019-07-06T20:00:04.321 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-06T20:00:04.332 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-06T20:00:04.499 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=fb9b4e9e-20e8-352f-884e-b8808eb6d5f3
+2019-07-06T20:00:04.618 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$61796a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:00:04.724 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$223199a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:00:05.349 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T20:00:05.361 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:00:05.368 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T20:00:05.368 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T20:00:05.437 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T20:00:05.437 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1910 ms
+2019-07-06T20:00:05.612 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:00:05.613 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:00:05.623 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@587213f3
+2019-07-06T20:00:10.964 [restartedMain] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-06T20:00:11.473 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:00:11.473 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:00:12.027 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:00:12.244 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-06T20:00:12.766 [restartedMain] [WARN] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-07-06T20:00:12.927 [restartedMain] [INFO] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-06T20:00:13.041 [restartedMain] [INFO] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-06T20:00:13.074 [restartedMain] [INFO] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-06T20:00:13.130 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-06T20:00:13.131 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-06T20:00:13.260 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-06T20:00:13.260 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-06T20:00:13.416 [restartedMain] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:00:13.429 [restartedMain] [INFO] c.n.d.DiscoveryClient - Disable delta property : false
+2019-07-06T20:00:13.429 [restartedMain] [INFO] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-07-06T20:00:13.429 [restartedMain] [INFO] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-07-06T20:00:13.429 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application is null : false
+2019-07-06T20:00:13.429 [restartedMain] [INFO] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-07-06T20:00:13.429 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application version is -1: true
+2019-07-06T20:00:13.429 [restartedMain] [INFO] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-06T20:00:13.554 [restartedMain] [INFO] c.n.d.DiscoveryClient - The response status is 200
+2019-07-06T20:00:13.556 [restartedMain] [INFO] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-06T20:00:13.558 [restartedMain] [INFO] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-06T20:00:13.561 [restartedMain] [INFO] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1562414413560 with initial instances count: 1
+2019-07-06T20:00:13.594 [restartedMain] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVER with eureka with status UP
+2019-07-06T20:00:13.595 [restartedMain] [INFO] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414413595, current=UP, previous=STARTING]
+2019-07-06T20:00:13.596 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:00:13.612 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:00:13.623 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:00:13.628 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8891 (http) with context path ''
+2019-07-06T20:00:13.628 [restartedMain] [INFO] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8891
+2019-07-06T20:00:13.630 [restartedMain] [INFO] c.s.u.UserServerApplication - Started UserServerApplication in 11.262 seconds (JVM running for 11.979)
+2019-07-06T20:00:14.178 [RMI TCP Connection(1)-127.0.0.1] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-06T20:00:14.178 [RMI TCP Connection(1)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-06T20:00:14.197 [RMI TCP Connection(1)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Completed initialization in 19 ms
+2019-07-06T20:01:44.762 [Thread-23] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USER-SERVER with eureka with status DOWN
+2019-07-06T20:01:44.763 [Thread-23] [WARN] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414504763, current=DOWN, previous=UP]
+2019-07-06T20:01:44.763 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:01:44.767 [Thread-23] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:01:44.767 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:01:44.779 [Thread-23] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-06T20:01:44.780 [Thread-23] [INFO] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-06T20:01:47.781 [Thread-23] [INFO] c.n.d.DiscoveryClient - Unregistering ...
+2019-07-06T20:01:47.786 [Thread-23] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - deregister  status: 200
+2019-07-06T20:01:47.794 [Thread-23] [INFO] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-06T20:01:51.701 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-06T20:01:52.064 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7baa8f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:01:52.219 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T20:01:52.693 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver.mapper]' package. Please check your configuration.
+2019-07-06T20:01:52.772 [restartedMain] [WARN] o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shanjiancaofu.userserver]' package. Please check your configuration.
+2019-07-06T20:01:52.981 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-06T20:01:52.990 [restartedMain] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-06T20:01:53.143 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=fb9b4e9e-20e8-352f-884e-b8808eb6d5f3
+2019-07-06T20:01:53.248 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aba0a5f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:01:53.355 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7baa8f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:01:53.974 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T20:01:53.986 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:01:53.992 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T20:01:53.993 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T20:01:54.065 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T20:01:54.066 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1832 ms
+2019-07-06T20:01:54.238 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:01:54.238 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:01:54.245 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@71129b6d
+2019-07-06T20:01:58.827 [restartedMain] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-06T20:01:59.618 [restartedMain] [WARN] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-07-06T20:01:59.667 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:01:59.667 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:02:00.175 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:02:00.392 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-06T20:02:01.053 [restartedMain] [INFO] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-06T20:02:01.152 [restartedMain] [INFO] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-06T20:02:01.183 [restartedMain] [INFO] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-06T20:02:01.233 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-06T20:02:01.233 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-06T20:02:01.325 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-06T20:02:01.325 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-06T20:02:01.476 [restartedMain] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:02:01.492 [restartedMain] [INFO] c.n.d.DiscoveryClient - Disable delta property : false
+2019-07-06T20:02:01.492 [restartedMain] [INFO] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-07-06T20:02:01.492 [restartedMain] [INFO] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-07-06T20:02:01.492 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application is null : false
+2019-07-06T20:02:01.492 [restartedMain] [INFO] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-07-06T20:02:01.492 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application version is -1: true
+2019-07-06T20:02:01.492 [restartedMain] [INFO] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-06T20:02:01.613 [restartedMain] [INFO] c.n.d.DiscoveryClient - The response status is 200
+2019-07-06T20:02:01.616 [restartedMain] [INFO] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-06T20:02:01.619 [restartedMain] [INFO] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-06T20:02:01.622 [restartedMain] [INFO] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1562414521621 with initial instances count: 1
+2019-07-06T20:02:01.655 [restartedMain] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVER with eureka with status UP
+2019-07-06T20:02:01.656 [restartedMain] [INFO] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414521656, current=UP, previous=STARTING]
+2019-07-06T20:02:01.658 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:02:01.673 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:02:01.686 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:02:01.692 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8891 (http) with context path ''
+2019-07-06T20:02:01.693 [restartedMain] [INFO] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8891
+2019-07-06T20:02:01.694 [restartedMain] [INFO] c.s.u.UserServerApplication - Started UserServerApplication in 10.643 seconds (JVM running for 11.181)
+2019-07-06T20:02:02.024 [RMI TCP Connection(5)-127.0.0.1] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-06T20:02:02.024 [RMI TCP Connection(5)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-06T20:02:02.042 [RMI TCP Connection(5)-127.0.0.1] [INFO] o.s.w.s.DispatcherServlet - Completed initialization in 18 ms
+2019-07-06T20:06:34.526 [Thread-2] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USER-SERVER with eureka with status DOWN
+2019-07-06T20:06:34.526 [Thread-2] [WARN] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414794526, current=DOWN, previous=UP]
+2019-07-06T20:06:34.527 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:06:34.531 [Thread-2] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:06:34.532 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:06:34.556 [Thread-2] [INFO] c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-06T20:06:34.559 [Thread-2] [INFO] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-06T20:06:37.560 [Thread-2] [INFO] c.n.d.DiscoveryClient - Unregistering ...
+2019-07-06T20:06:37.566 [Thread-2] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - deregister  status: 200
+2019-07-06T20:06:37.577 [Thread-2] [INFO] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-06T20:06:38.119 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7baa8f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:06:38.164 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T20:06:38.720 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=70db7c7e-9b0a-3080-98d7-128807e87db6
+2019-07-06T20:06:38.757 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aba0a5f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:06:38.775 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7baa8f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:06:39.108 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T20:06:39.113 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:06:39.113 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T20:06:39.114 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T20:06:39.125 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T20:06:39.125 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 957 ms
+2019-07-06T20:06:39.245 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:06:39.245 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:06:39.246 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@28008dfa
+2019-07-06T20:06:42.021 [restartedMain] [INFO] c.a.d.p.DruidDataSource - {dataSource-2} inited
+2019-07-06T20:06:42.731 [restartedMain] [WARN] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-07-06T20:06:42.867 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:06:42.867 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:06:43.551 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:06:43.743 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-06T20:06:44.328 [restartedMain] [INFO] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-06T20:06:44.419 [restartedMain] [INFO] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-06T20:06:44.426 [restartedMain] [INFO] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-06T20:06:44.428 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-06T20:06:44.428 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-06T20:06:44.428 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-06T20:06:44.428 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-06T20:06:44.538 [restartedMain] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:06:44.553 [restartedMain] [INFO] c.n.d.DiscoveryClient - Disable delta property : false
+2019-07-06T20:06:44.554 [restartedMain] [INFO] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-07-06T20:06:44.554 [restartedMain] [INFO] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-07-06T20:06:44.554 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application is null : false
+2019-07-06T20:06:44.554 [restartedMain] [INFO] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-07-06T20:06:44.554 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application version is -1: true
+2019-07-06T20:06:44.554 [restartedMain] [INFO] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-06T20:06:44.598 [restartedMain] [INFO] c.n.d.DiscoveryClient - The response status is 200
+2019-07-06T20:06:44.599 [restartedMain] [INFO] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-06T20:06:44.603 [restartedMain] [INFO] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-06T20:06:44.606 [restartedMain] [INFO] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1562414804606 with initial instances count: 2
+2019-07-06T20:06:44.666 [restartedMain] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVER with eureka with status UP
+2019-07-06T20:06:44.667 [restartedMain] [INFO] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414804667, current=UP, previous=STARTING]
+2019-07-06T20:06:44.667 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:06:44.677 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:06:44.679 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:06:44.683 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8891 (http) with context path ''
+2019-07-06T20:06:44.684 [restartedMain] [INFO] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8891
+2019-07-06T20:06:44.684 [restartedMain] [INFO] c.s.u.UserServerApplication - Started UserServerApplication in 6.667 seconds (JVM running for 294.172)
+2019-07-06T20:06:44.695 [restartedMain] [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) found beans of type 'org.mybatis.spring.mapper.MapperFactoryBean' &departmentMapper (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-07-06T20:08:34.634 [Thread-32] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USER-SERVER with eureka with status DOWN
+2019-07-06T20:08:34.635 [Thread-32] [WARN] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414914635, current=DOWN, previous=UP]
+2019-07-06T20:08:34.636 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:08:34.642 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:08:34.645 [Thread-32] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:08:34.656 [Thread-32] [INFO] c.a.d.p.DruidDataSource - {dataSource-2} closed
+2019-07-06T20:08:34.657 [Thread-32] [INFO] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-06T20:08:37.658 [Thread-32] [INFO] c.n.d.DiscoveryClient - Unregistering ...
+2019-07-06T20:08:37.663 [Thread-32] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - deregister  status: 200
+2019-07-06T20:08:37.671 [Thread-32] [INFO] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-06T20:08:38.237 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7baa8f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:08:38.289 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T20:08:38.941 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=70db7c7e-9b0a-3080-98d7-128807e87db6
+2019-07-06T20:08:38.976 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aba0a5f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:08:38.993 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7baa8f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:08:39.303 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T20:08:39.306 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:08:39.306 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T20:08:39.307 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T20:08:39.315 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T20:08:39.315 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1020 ms
+2019-07-06T20:08:39.465 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:08:39.465 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:08:39.465 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@14a4d4b2
+2019-07-06T20:08:40.120 [restartedMain] [INFO] c.a.d.p.DruidDataSource - {dataSource-3} inited
+2019-07-06T20:08:40.699 [restartedMain] [WARN] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-07-06T20:08:40.785 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:08:40.785 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:08:41.419 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:08:41.640 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-06T20:08:42.170 [restartedMain] [INFO] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-06T20:08:42.243 [restartedMain] [INFO] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-06T20:08:42.256 [restartedMain] [INFO] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-06T20:08:42.258 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-06T20:08:42.258 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-06T20:08:42.258 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-06T20:08:42.258 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-06T20:08:42.335 [restartedMain] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:08:42.335 [restartedMain] [INFO] c.n.d.DiscoveryClient - Disable delta property : false
+2019-07-06T20:08:42.336 [restartedMain] [INFO] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-07-06T20:08:42.336 [restartedMain] [INFO] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-07-06T20:08:42.336 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application is null : false
+2019-07-06T20:08:42.336 [restartedMain] [INFO] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-07-06T20:08:42.336 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application version is -1: true
+2019-07-06T20:08:42.336 [restartedMain] [INFO] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-06T20:08:42.344 [restartedMain] [INFO] c.n.d.DiscoveryClient - The response status is 200
+2019-07-06T20:08:42.345 [restartedMain] [INFO] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-06T20:08:42.346 [restartedMain] [INFO] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-06T20:08:42.347 [restartedMain] [INFO] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1562414922347 with initial instances count: 2
+2019-07-06T20:08:42.409 [restartedMain] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVER with eureka with status UP
+2019-07-06T20:08:42.409 [restartedMain] [INFO] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414922409, current=UP, previous=STARTING]
+2019-07-06T20:08:42.409 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:08:42.415 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:08:42.423 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:08:42.443 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8891 (http) with context path ''
+2019-07-06T20:08:42.444 [restartedMain] [INFO] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8891
+2019-07-06T20:08:42.444 [restartedMain] [INFO] c.s.u.UserServerApplication - Started UserServerApplication in 4.294 seconds (JVM running for 411.932)
+2019-07-06T20:08:42.450 [restartedMain] [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-07-06T20:09:16.509 [Thread-41] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USER-SERVER with eureka with status DOWN
+2019-07-06T20:09:16.509 [Thread-41] [WARN] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414956509, current=DOWN, previous=UP]
+2019-07-06T20:09:16.510 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:09:16.515 [Thread-41] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:09:16.518 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:09:16.527 [Thread-41] [INFO] c.a.d.p.DruidDataSource - {dataSource-3} closed
+2019-07-06T20:09:16.528 [Thread-41] [INFO] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-06T20:09:19.529 [Thread-41] [INFO] c.n.d.DiscoveryClient - Unregistering ...
+2019-07-06T20:09:19.535 [Thread-41] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - deregister  status: 200
+2019-07-06T20:09:19.541 [Thread-41] [INFO] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-06T20:09:20.029 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7baa8f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:09:20.073 [restartedMain] [INFO] c.s.u.UserServerApplication - No active profile set, falling back to default profiles: default
+2019-07-06T20:09:20.610 [restartedMain] [INFO] o.s.c.c.s.GenericScope - BeanFactory id=70db7c7e-9b0a-3080-98d7-128807e87db6
+2019-07-06T20:09:20.643 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aba0a5f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:09:20.663 [restartedMain] [INFO] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7baa8f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-06T20:09:20.952 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8891 (http)
+2019-07-06T20:09:20.954 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:09:20.955 [restartedMain] [INFO] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-06T20:09:20.955 [restartedMain] [INFO] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06T20:09:20.963 [restartedMain] [INFO] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-06T20:09:20.964 [restartedMain] [INFO] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 889 ms
+2019-07-06T20:09:21.109 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:09:21.109 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:09:21.109 [restartedMain] [INFO] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@74f706ac
+2019-07-06T20:09:21.807 [restartedMain] [INFO] c.a.d.p.DruidDataSource - {dataSource-4} inited
+2019-07-06T20:09:22.376 [restartedMain] [WARN] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-07-06T20:09:22.489 [restartedMain] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-06T20:09:22.489 [restartedMain] [INFO] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-06T20:09:23.168 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:09:23.372 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-06T20:09:23.894 [restartedMain] [INFO] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-06T20:09:23.963 [restartedMain] [INFO] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-06T20:09:23.968 [restartedMain] [INFO] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-06T20:09:23.969 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-06T20:09:23.969 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-06T20:09:23.969 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-06T20:09:23.969 [restartedMain] [INFO] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-06T20:09:24.048 [restartedMain] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:09:24.048 [restartedMain] [INFO] c.n.d.DiscoveryClient - Disable delta property : false
+2019-07-06T20:09:24.049 [restartedMain] [INFO] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-07-06T20:09:24.049 [restartedMain] [INFO] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-07-06T20:09:24.049 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application is null : false
+2019-07-06T20:09:24.049 [restartedMain] [INFO] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-07-06T20:09:24.049 [restartedMain] [INFO] c.n.d.DiscoveryClient - Application version is -1: true
+2019-07-06T20:09:24.049 [restartedMain] [INFO] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-06T20:09:24.054 [restartedMain] [INFO] c.n.d.DiscoveryClient - The response status is 200
+2019-07-06T20:09:24.059 [restartedMain] [INFO] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-06T20:09:24.060 [restartedMain] [INFO] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-06T20:09:24.066 [restartedMain] [INFO] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1562414964066 with initial instances count: 2
+2019-07-06T20:09:24.139 [restartedMain] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVER with eureka with status UP
+2019-07-06T20:09:24.139 [restartedMain] [INFO] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562414964139, current=UP, previous=STARTING]
+2019-07-06T20:09:24.139 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:09:24.145 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration status: 204
+2019-07-06T20:09:24.153 [restartedMain] [INFO] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8891"]
+2019-07-06T20:09:24.160 [restartedMain] [INFO] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8891 (http) with context path ''
+2019-07-06T20:09:24.161 [restartedMain] [INFO] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8891
+2019-07-06T20:09:24.170 [restartedMain] [INFO] c.s.u.UserServerApplication - Started UserServerApplication in 4.224 seconds (JVM running for 453.657)
+2019-07-06T20:09:24.174 [restartedMain] [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-07-06T20:14:24.050 [AsyncResolver-bootstrap-executor-0] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:19:24.060 [AsyncResolver-bootstrap-executor-0] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:24:24.069 [AsyncResolver-bootstrap-executor-0] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:29:24.071 [AsyncResolver-bootstrap-executor-0] [INFO] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-06T20:34:00.250 [Thread-58] [INFO] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USER-SERVER with eureka with status DOWN
+2019-07-06T20:34:00.251 [Thread-58] [WARN] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562416440251, current=DOWN, previous=UP]
+2019-07-06T20:34:00.252 [DiscoveryClient-InstanceInfoReplicator-0] [INFO] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891: registering service...
+2019-07-06T20:34:00.253 [Thread-58] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-06T20:34:00.257 [Thread-58] [INFO] c.a.d.p.DruidDataSource - {dataSource-4} closed
+2019-07-06T20:34:00.257 [Thread-58] [INFO] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-06T20:34:00.259 [DiscoveryClient-InstanceInfoReplicator-0] [ERROR] c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+2019-07-06T20:34:00.259 [DiscoveryClient-InstanceInfoReplicator-0] [WARN] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2019-07-06T20:34:00.260 [DiscoveryClient-InstanceInfoReplicator-0] [ERROR] c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 31 common frames omitted
+2019-07-06T20:34:00.260 [DiscoveryClient-InstanceInfoReplicator-0] [WARN] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2019-07-06T20:34:00.261 [DiscoveryClient-InstanceInfoReplicator-0] [ERROR] c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8762/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 31 common frames omitted
+2019-07-06T20:34:00.261 [DiscoveryClient-InstanceInfoReplicator-0] [WARN] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2019-07-06T20:34:00.262 [DiscoveryClient-InstanceInfoReplicator-0] [WARN] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - registration failed Retry limit reached; giving up on completing the request
+com.netflix.discovery.shared.transport.TransportException: Retry limit reached; giving up on completing the request
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:139)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-06T20:34:00.262 [DiscoveryClient-InstanceInfoReplicator-0] [WARN] c.n.d.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Retry limit reached; giving up on completing the request
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:139)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-06T20:34:00.263 [Thread-58] [INFO] c.n.d.DiscoveryClient - Unregistering ...
+2019-07-06T20:34:00.266 [Thread-58] [ERROR] c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1052)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1059)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 42 common frames omitted
+2019-07-06T20:34:00.266 [Thread-58] [WARN] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2019-07-06T20:34:00.267 [Thread-58] [ERROR] c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8762/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1052)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1059)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 42 common frames omitted
+2019-07-06T20:34:00.267 [Thread-58] [WARN] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2019-07-06T20:34:00.267 [Thread-58] [ERROR] c.n.d.DiscoveryClient - DiscoveryClient_USER-SERVER/192.168.31.31:user-server:8891 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1052)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1059)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-07-06T20:34:00.271 [Thread-58] [INFO] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient

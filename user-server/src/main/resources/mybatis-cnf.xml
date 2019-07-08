@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="lazyLoadTriggerMethods" value="clone"/>
+
+
+        <!-- 实现Mybatis 的日志默认输出, 方便调试 -->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+
+        <!-- 自定义Mybatis sql的前缀, 可以将sql打印在日志文件中-->
+        <!--<setting name="logPrefix" value="daoLog."/>-->
+    </settings>
+</configuration>

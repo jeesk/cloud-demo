@@ -1,0 +1,12 @@
+2019-07-08T20:01:55.821 [main] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-08T20:01:55.835 [main] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-08T20:01:58.969 [main] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08T20:01:58.977 [main] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08T20:02:31.141 [main] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-08T20:02:31.150 [main] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-08T20:02:34.473 [main] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08T20:02:34.480 [main] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08T20:03:19.583 [main] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-08T20:03:19.594 [main] [WARN] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-08T20:03:22.593 [main] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08T20:03:22.600 [main] [WARN] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
