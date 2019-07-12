@@ -6,6 +6,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 
+/*
 @Component
 public class WebMvcConfig implements WebMvcConfigurer {
 
@@ -25,4 +26,4 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry) {
         //registry.addViewController("/error/404").setViewName("/admin/page_error/error_404.html");
     }
-}
+}*/
