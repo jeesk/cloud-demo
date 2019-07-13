@@ -35,6 +35,7 @@ public class KungfuController {
      */
     @GetMapping("/level1/{path}")
     public String level1(@PathVariable("path") String path) {
+
         return PREFIX + "level1/" + path;
     }
 
