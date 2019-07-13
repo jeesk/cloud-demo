@@ -14,6 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableHystrix
+
 @EnableAutoConfiguration(exclude = {org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration.class, RabbitAutoConfiguration.class})
 @MapperScan("com.shanjiancaofu.userserver.mapper")
 @EnableScheduling // 开启定时器

@@ -1,9 +1,12 @@
 package com.shanjiancaofu.userapi;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 import java.util.Collections;
 import java.util.List;
 
-
+@Component
 public class UserServiceFallback implements IUserService {
 
     @Override

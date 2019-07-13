@@ -14,7 +14,7 @@ public class JsonTest {
     @Test
     public void jsonTest() {
         Map<Object, Object> map = new HashMap<>();
-        Object[] strLIst = new Object[]{1,2,4,5,6};
+        Object[] strLIst = new Object[]{1, 2, 4, 5, 6};
         List<Object> list = new ArrayList<>();
         list.add(1);
         list.add(2);
